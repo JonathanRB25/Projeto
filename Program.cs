@@ -19,7 +19,15 @@ namespace Projeto
             retangulo.Altura = 20;
             retangulo.Largura = 20;
 
-            Console.WriteLine(GetArea);
+            Console.WriteLine(retangulo.GetArea());
+            Console.WriteLine(retangulo.GetPerimetro());
+
+
+            Conta_Corrente conta_Corrente1 = new Conta_Corrente(20.00, "Jonathan", 10.00);
+            Conta_Corrente conta_Corrente2 = new Conta_Corrente(6.00, "Jonathan", 15.00);
+            Conta_Corrente conta_Corrente3 = new Conta_Corrente(7.00, "Jonathan", 20.00);
+
+            Console.WriteLine(conta_Corrente1.GetSaldo());
         }
 
 
